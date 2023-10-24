@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.data-table {
+    .btn-view {
+      background-color: #09c;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border-color: #09c;
+      cursor: pointer;
+    }
+    tr {
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+    th,
+    td {
+      text-align: center;
+    }
+  }
+  ::ng-deep .mat-mdc-cell,
+  ::ng-deep .mat-mdc-header-cell {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  
